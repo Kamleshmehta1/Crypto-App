@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Poppins:wght@100;200;300&family=Ubuntu:wght@300&display=swap');
+
+
+
+body {
+  background-color: #000;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: auto;
+  width: 80%;
+  color: #E1CCEC;
+}
+
+input {
+  margin: auto;
+}
+
+.add-line {
+  font-size: 100px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  font-size: 26px;
+}
+
+tr {
+  line-height: 3.5rem;
+}
+
+
+.add-line {
+  font-size: 1rem;
+  border-top: 0;
+  font-weight: 600;
+  border-bottom: 0.01px solid #521262;
+}
+
+.th-head {
+  color: #A63EC5;
+}
+
+.no-data {
+  text-align: center;
+  color: #522546;
+}
+
+
+.input-container {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input[type=text] {
+  font-size: 1.5rem;
+  padding: 10px 15px;
+  margin: 10px;
+  margin: 8px 0;
+  color: #eee;
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(-225deg,
+      #3490DE 0%,
+      #6639A6 48%,
+      #521262 100%);
+}
+
+
+
+input[type=text]:focus {
+  outline: darkslategray;
+}
+
+input[type=text]::placeholder {
+  color: #eee;
+  letter-spacing: 0.2em;
+  font-size: 1rem;
+}
+
+.rank {
+  width: 15%;
+}
+
+.symbol {
+  width: 20%;
+}
+
+.id {
+  width: 20%;
+}
+
+.prices {
+  width: 20%;
+}
+
+.capital {
+  width: 25%;
+}
+
+.label-search {
+  margin: 10px 10px 10px 10px;
+  font-size: 36px;
+  cursor: pointer;
+  letter-spacing: 0.4em;
+  color: #2FA4FF;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+}
+
+.fa .fa-search {
+  color: #521262;
+  font-size: 1.5rem;
+  padding-left: 10px;
+}
+
+.rank,
+.id,
+.symbol,
+.prices,
+.capital {
+  color: #EDD2F3;
+  font-size: 19px;
+}
+
+.fa .fa-arrow-left {
+  font-size: 36px;
+  color: #eee;
+}
+
+.fa .fa-angle-double-right {
+  font-size: 1.rem;
+  color: #eee;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+button {
+  background-image: linear-gradient(-225deg,
+      #3490DE 0%,
+      #6639A6 48%,
+      #521262 100%);
+  padding: 20px;
+  margin: 30px 0 30px 20px;
+  font-size: 1.2rem;
+  color: #eee;
+  border: none;
+  border-radius: 25%;
+  cursor: pointer;
+}
+
+@media only screen and (max-width:1200px) {
+  .capital-head {
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width:700px) {
+  .label-search {
+    letter-spacing: 0.2em;
+  }
+}
