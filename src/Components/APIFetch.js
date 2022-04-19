@@ -32,19 +32,19 @@ function APIFetch() {
     }
 
     let handleClick = (e) => {
-        if (e.target.innerText == "1") {
+        if (e.target.innerText === "1") {
             setPagingTnit(0)
             setPagingFinal(20)
-        } else if (e.target.innerText == "2") {
+        } else if (e.target.innerText === "2") {
             setPagingTnit(20)
             setPagingFinal(40)
-        } else if (e.target.innerText == "3") {
+        } else if (e.target.innerText === "3") {
             setPagingTnit(40)
             setPagingFinal(60)
-        } else if (e.target.innerText == "4") {
+        } else if (e.target.innerText === "4") {
             setPagingTnit(60)
             setPagingFinal(80)
-        } else if (e.target.innerText == "5") {
+        } else if (e.target.innerText === "5") {
             setPagingTnit(80)
             setPagingFinal(100)
         }
