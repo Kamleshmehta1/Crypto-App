@@ -24,7 +24,7 @@ function APIFetch() {
             });
     }, [])
 
-    if (!data) { return; }
+    if (data.length===0) { return; }
 
     const handleChange = (e) => {
         setSearch(e.target.value)
